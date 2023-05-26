@@ -54,7 +54,7 @@ public class Student {
         System.out.println("\nSorting by grade (спадання):");
         Arrays.sort(students, Comparator.comparing(Student::getAge, Comparator.reverseOrder()));
         for (Student student : students) {
-            System.out.println(student.getName() + " - Grade: " + student.getAge());
+            System.out.println(student.getName() + " - Age: " + student.getAge());
         }
     }
 }
